@@ -1,0 +1,25 @@
+=== RUN   TestImportWilayah
+
+2022/09/28 14:30:12 [35m/Users/alfiankan/perkuliahan/skripsi/devskripsi/web/tests/import_wilayah_test.go:23
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `host=petaku-rds.c6xqzip5sile.ap-southeast-1.rds.amazonaws.com user=petaku database=gorm`: server error (FATAL: database "gorm" does not exist (SQLSTATE 3D000))
+--- FAIL: TestImportWilayah (0.65s)
+panic: failed to connect to `host=petaku-rds.c6xqzip5sile.ap-southeast-1.rds.amazonaws.com user=petaku database=gorm`: server error (FATAL: database "gorm" does not exist (SQLSTATE 3D000)) [recovered]
+	panic: failed to connect to `host=petaku-rds.c6xqzip5sile.ap-southeast-1.rds.amazonaws.com user=petaku database=gorm`: server error (FATAL: database "gorm" does not exist (SQLSTATE 3D000))
+
+goroutine 19 [running]:
+testing.tRunner.func1.2({0x104976ea0, 0x14000306840})
+	/usr/local/go/src/testing/testing.go:1396 +0x1c8
+testing.tRunner.func1()
+	/usr/local/go/src/testing/testing.go:1399 +0x378
+panic({0x104976ea0, 0x14000306840})
+	/usr/local/go/src/runtime/panic.go:884 +0x204
+idresearch-web/tests.pgCon()
+	/Users/alfiankan/perkuliahan/skripsi/devskripsi/web/tests/import_wilayah_test.go:25 +0x100
+idresearch-web/tests.TestImportWilayah(0x0?)
+	/Users/alfiankan/perkuliahan/skripsi/devskripsi/web/tests/import_wilayah_test.go:39 +0x2c
+testing.tRunner(0x140001836c0, 0x1049ee850)
+	/usr/local/go/src/testing/testing.go:1446 +0x10c
+created by testing.(*T).Run
+	/usr/local/go/src/testing/testing.go:1493 +0x300
+FAIL	idresearch-web/tests	1.184s
+FAIL

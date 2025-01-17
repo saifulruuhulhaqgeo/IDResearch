@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3a7c881e.css",
+    "main.js": "/static/js/main.55fe2d4d.js",
+    "static/js/62.4c61c71f.chunk.js": "/static/js/62.4c61c71f.chunk.js",
+    "pdfmake.js": "/static/js/pdfmake.a0107b7b.chunk.js",
+    "canvg.js": "/static/js/canvg.83b2056d.chunk.js",
+    "xlsx.js": "/static/js/xlsx.8124d70e.chunk.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/logo-amcolabora-HD.png": "/static/media/logo-amcolabora-HD.0c43cb26b43880bda0ed.png",
+    "static/media/bg-map.png": "/static/media/bg-map.d7eabd4ba7b00053d066.png",
+    "static/media/red-map.png": "/static/media/red-map.5572916bccd6290801f5.png",
+    "static/media/logo-footer.png": "/static/media/logo-footer.3ffca38e33bb0bc34180.png",
+    "static/media/logo-kuning.png": "/static/media/logo-kuning.39029b19a960b74b30cd.png",
+    "static/media/logo-putih.png": "/static/media/logo-putih.5d696e243aacd8c85722.png",
+    "index.html": "/index.html",
+    "main.3a7c881e.css.map": "/static/css/main.3a7c881e.css.map",
+    "main.55fe2d4d.js.map": "/static/js/main.55fe2d4d.js.map",
+    "62.4c61c71f.chunk.js.map": "/static/js/62.4c61c71f.chunk.js.map",
+    "pdfmake.a0107b7b.chunk.js.map": "/static/js/pdfmake.a0107b7b.chunk.js.map",
+    "canvg.83b2056d.chunk.js.map": "/static/js/canvg.83b2056d.chunk.js.map",
+    "xlsx.8124d70e.chunk.js.map": "/static/js/xlsx.8124d70e.chunk.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a7c881e.css",
+    "static/js/main.55fe2d4d.js"
+  ]
+}

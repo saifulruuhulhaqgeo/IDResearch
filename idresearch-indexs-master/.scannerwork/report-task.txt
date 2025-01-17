@@ -1,0 +1,6 @@
+projectKey=idresearch
+serverUrl=http://139.177.191.58:8084
+serverVersion=9.6.1.59531
+dashboardUrl=http://139.177.191.58:8084/dashboard?id=idresearch
+ceTaskId=AYPkjNjRLqZTF1vOp_WA
+ceTaskUrl=http://139.177.191.58:8084/api/ce/task?id=AYPkjNjRLqZTF1vOp_WA

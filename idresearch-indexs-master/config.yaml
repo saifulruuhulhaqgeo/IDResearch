@@ -1,0 +1,26 @@
+application:
+  serve_port: 3000
+
+database:
+  main:
+    hostname: database-idreasearch-dev.cyowgpudjgfu.ap-southeast-1.rds.amazonaws.com     
+    username: postgres
+    password: R1T3TYYN
+    #hostname: 172.31.14.155
+    #username: postgres
+    #password: 473550
+    port: 5432
+    db_name: idresearch
+
+jaeger:
+  endpoint: http://localhost:14268/api/traces
+
+environment: dev
+jwt_key: helloidresearch
+news_services:
+  google_news_host: https://pj3xgoil4j7pb3v6kn4q46ndle0wvvqr.lambda-url.us-east-1.on.aws
+
+scopus:
+  host: https://api.elsevier.com
+  api_key_1: c6ec682578cead31a56245961ed693a2
+  api_key_2: 214fc763e5304aef4bae69bcd94f9219
